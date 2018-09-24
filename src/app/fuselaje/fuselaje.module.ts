@@ -6,6 +6,8 @@ import { PAGES_ROUTES } from './fuselaje.routs';
 import { MotorComponent } from './motor/motor.component';
 import { CabinaComponent } from './cabina/cabina.component';
 import { InicioComponent } from './inicio/inicio.component';
+import { PlanetasComponent } from './planetas/planetas.component';
+import { ControlComponent } from './control/control.component';
 
 
 
@@ -14,7 +16,9 @@ import { InicioComponent } from './inicio/inicio.component';
     declarations: [
         MotorComponent,
         CabinaComponent,
-        InicioComponent
+        InicioComponent,
+        PlanetasComponent,
+        ControlComponent
     ],
     exports: [
         MotorComponent,
